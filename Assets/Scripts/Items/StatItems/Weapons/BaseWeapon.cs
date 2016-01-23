@@ -4,7 +4,7 @@ using System.Collections;
 public class BaseWeapon : BaseStatItem {
 
 	public int Damage { get ; set;}
-	public WeaponTypes weaponType{ get; set;}
+	public WeaponTypes WeaponType{ get; set;}
 
 	public enum WeaponTypes {
 		SWORD,

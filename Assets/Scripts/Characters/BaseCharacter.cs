@@ -12,8 +12,7 @@ public class BaseCharacter
 	public int Health{get; set;}
 	public int Mana{get; set;}
 
-	//class
-	public CharacterClass charClass{get; set;}
+	public CharacterClass CharClass{get; set;}
 
 	public enum CharacterClass{
 		MAGE,
